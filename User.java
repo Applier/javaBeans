@@ -20,7 +20,7 @@ public class User {
 	private int numTel;
 	private Date dateNaissance;
 	private String adresse;
-	private Collection<Competence> competences;
+	private Collection<DomaineCompetences> domainesCompetences;
 	private Collection<Emploi> emplois;
 	private Collection<Formation> formations;
 	private Collection<Langue> langues;
@@ -84,11 +84,11 @@ public class User {
 		this.adresse = adresse;
 	}
 	
-	// competences
-	public Collection<Competence> getCompetences() {
+	// domainesCompetences
+	public Collection<DomaineCompetences> getCompetences() {
 		return this.competences;
 	}
-	public void setCompetences(Collection<Competence> competences) {
+	public void setCompetences(Collection<DomaineCompetences> competences) {
 		this.competences = competences;
 	}
 	
@@ -128,8 +128,8 @@ public class User {
 	
 	/* Operations complementaires sur les collections */
 	
-	public void addCompetence(Competence competence) {
-		this.competences.add(competence);
+	public void addDomaineCompetences(DomaineCompetences domaine) {
+		this.competences.add(domaine);
 	}
 	
 	public void addEmploi(Emploi emploi) {
