@@ -33,4 +33,22 @@ public class DomaineCompetences {
 		this.competences = competences;
 	}
 	
+	/* Operations complementaires sur la collection */
+	
+	// ajouter
+	
+	public void addCompetence(String competence) {
+		this.competences.add(competence);
+	}
+	
+	// supprimer
+	
+	public void removeCompetence(String competence) {
+		this.competences.remove(competence);
+	}
+
+	public void removeAll() {
+		this.competences.clear();
+	}
+	
 }
