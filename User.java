@@ -125,4 +125,68 @@ public class User {
 		this.loisirs = loisirs;
 	}
 	
+	
+	/* Operations complementaires sur les collections */
+	
+	// ajouter
+	
+	public void addDomaineCompetences(DomaineCompetences domaine) {
+		this.competences.add(domaine);
+	}
+	
+	public void addEmploi(Emploi emploi) {
+		this.emplois.add(emploi);
+	}
+	
+	public void addFormation(Formation formation) {
+		this.formations.add(formation);
+	}
+	
+	public void addLangue(Langue langue) {
+		this.langues.add(langue);
+	}
+	
+	public void addLoisir(Loisir loisir) {
+		this.loisirs.add(loisir);
+	}
+	
+	
+	// supprimer
+	
+	public void removeCompetence(DomaineCompetences domaine) {
+		this.competences.remove(domaine);
+	}
+	public void removeAllCompetences() {
+		this.competences.clear();
+	}
+	
+	public void removeEmploi(Emploi emploi) {
+		this.emplois.remove(emploi);
+	}
+	public void removeAllEmplois() {
+		this.emplois.clear();
+	}
+	
+	public void removeFormation(Formation formation) {
+		this.formations.remove(formation);
+	}
+	public void removeAllFormations() {
+		this.formations.clear();
+	}
+	
+	public void removeLangue(Langue langue) {
+		this.langues.remove(langue);
+	}
+	public void removeAllLangues() {
+		this.langues.clear();
+	}
+	
+	public void removeLoisir(Loisir loisir) {
+		this.loisirs.remove(loisir);
+	}
+	public void removeAllLoisirs() {
+		this.loisirs.clear();
+	}
+	
+
 }
