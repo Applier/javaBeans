@@ -13,10 +13,13 @@ import java.util.Date;
 public class User {
 	
 	/* Attributs */
+	
+	// relatifs au compte
 	private int idUser;
 	private String login;
 	private String mail;
 	private String password;
+	// infos personnelles relatives au CV
 	private int numTel;
 	private Date dateNaissance;
 	private String adresse;
@@ -25,6 +28,8 @@ public class User {
 	private Collection<Formation> formations;
 	private Collection<Langue> langues;
 	private Collection<Loisir> loisirs;
+	// offres
+	private Collection<Offre> offres;
 	
 	/* Getters et Setters */
 	
@@ -125,6 +130,14 @@ public class User {
 		this.loisirs = loisirs;
 	}
 	
+	// offres
+	public Collection<Offre> getOffres() {
+		return this.offres;
+	}
+	public void setOffres(Collection<Offre> offres) {
+		this.offres = offres;
+	}
+	
 	
 	/* Operations complementaires sur les collections */
 	
@@ -148,6 +161,10 @@ public class User {
 	
 	public void addLoisir(Loisir loisir) {
 		this.loisirs.add(loisir);
+	}
+	
+	public void addOffre(Offre offre) {
+		this.offres.add(offre);
 	}
 	
 	
@@ -186,6 +203,13 @@ public class User {
 	}
 	public void removeAllLoisirs() {
 		this.loisirs.clear();
+	}
+	
+	public void removeOffre(Offre offre) {
+		this.offres.remove(offre);
+	}
+	public void removeAll() {
+		this.offres.clear();
 	}
 	
 
