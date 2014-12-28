@@ -32,7 +32,6 @@ public class User {
 	public int getIdUser() {
 		return idUser;
 	}
-	
 	public void setIdUser(int idUser) {
 		this.idUser = idUser;
 	}
@@ -41,7 +40,6 @@ public class User {
 	public String getLogin() {
 		return this.login;
 	}
-	
 	public void setLogin(String login) {
 		this.login = login;
 	}
@@ -50,7 +48,6 @@ public class User {
 	public String getMail() {
 		return this.mail;
 	}
-	
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
@@ -59,7 +56,6 @@ public class User {
 	public String getPassword() {
 		return this.password;
 	}
-	
 	public void setPassword(String password) {
 		this.password = password;
 	}
@@ -68,7 +64,6 @@ public class User {
 	public int getNumTel() {
 		return this.numTel;
 	}
-	
 	public void setNumTel(int numTel) {
 		this.numTel = numTel;
 	}
@@ -77,7 +72,6 @@ public class User {
 	public Date getDateNaissance() {
 		return this.dateNaissance;
 	}
-	
 	public void setDateNaissance(Date dateNaissance) {
 		this.dateNaissance = dateNaissance;
 	}
@@ -86,7 +80,6 @@ public class User {
 	public String getAdresse() {
 		return this.adresse;
 	}
-	
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
 	}
@@ -95,7 +88,6 @@ public class User {
 	public Collection<Competence> getCompetences() {
 		return this.competences;
 	}
-	
 	public void setCompetences(Collection<Competence> competences) {
 		this.competences = competences;
 	}
@@ -105,7 +97,6 @@ public class User {
 	public Collection<Emploi> getEmplois() {
 		return this.emplois;
 	}
-	
 	public void setEmplois(Collection<Emploi> emplois) {
 		this.emplois = emplois;
 	}
@@ -114,7 +105,6 @@ public class User {
 	public Collection<Formation> getFormations() {
 		return this.formations;
 	}
-	
 	public void setFormations(Collection<Formation> formations) {
 		this.formations = formations;
 	}
@@ -123,7 +113,6 @@ public class User {
 	public Collection<Langue> getLangues() {
 		return this.langues;
 	}
-	
 	public void setLangues(Collection<Langue> langues) {
 		this.langues = langues;
 	}
@@ -132,7 +121,6 @@ public class User {
 	public Collection<Loisir> getLoisirs() {
 		return this.loisirs;
 	}
-	
 	public void setLoisirs(Collection<Loisir> loisirs) {
 		this.loisirs = loisirs;
 	}
