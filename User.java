@@ -125,24 +125,4 @@ public class User {
 		this.loisirs = loisirs;
 	}
 	
-	
-	/* Operations complementaires sur les collections */
-	
-	public void addDomaineCompetences(DomaineCompetences domaine) {
-		this.competences.add(domaine);
-	}
-	
-	public void addEmploi(Emploi emploi) {
-		this.emplois.add(emploi);
-	}
-	
-	public void addFormation(Formation formation) {
-		this.formations.add(formation);
-	}
-	
-	public void addLoisir(Loisir loisir) {
-		this.loisirs.add(loisir);
-	}
-	
-
 }
