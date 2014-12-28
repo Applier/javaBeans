@@ -20,7 +20,7 @@ public class User {
 	private int numTel;
 	private Date dateNaissance;
 	private String adresse;
-	private Collection<DomaineCompetences> domainesCompetences;
+	private Collection<DomaineCompetences> competences;
 	private Collection<Emploi> emplois;
 	private Collection<Formation> formations;
 	private Collection<Langue> langues;
