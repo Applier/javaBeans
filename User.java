@@ -97,7 +97,6 @@ public class User {
 		this.competences = competences;
 	}
 	
-	
 	// emplois
 	public Collection<Emploi> getEmplois() {
 		return this.emplois;
@@ -212,5 +211,4 @@ public class User {
 		this.offres.clear();
 	}
 	
-
 }
