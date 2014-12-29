@@ -33,7 +33,7 @@ public class DomaineCompetences {
 		this.competences = competences;
 	}
 	
-	/* Operations complementaires sur la collection */
+	/* Méthodes complémentaires sur la collection */
 	
 	// ajouter
 	
