@@ -15,7 +15,6 @@ public class User {
 	
 	// relatifs au compte
 	private int idUser;
-	private String login;
 	private String mail;
 	private String password;
 	// infos personnelles relatives au CV
@@ -31,14 +30,6 @@ public class User {
 	}
 	public void setIdUser(int idUser) {
 		this.idUser = idUser;
-	}
-	
-	// login
-	public String getLogin() {
-		return this.login;
-	}
-	public void setLogin(String login) {
-		this.login = login;
 	}
 	
 	// mail
