@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.Date;
 
 /**
- * @author Jade
+ * @author Jade BOUMAZA
  *
  */
 public class InfosCV {
