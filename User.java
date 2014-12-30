@@ -6,7 +6,7 @@ package intergiciels.beans;
 import java.util.Collection;
 
 /**
- * @author Jade
+ * @author Jade BOUMAZA
  *
  */
 public class User {
