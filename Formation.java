@@ -3,8 +3,6 @@
  */
 package intergiciels.beans;
 
-import java.util.Date;
-
 /**
  * @author Jade BOUMAZA
  *
@@ -12,26 +10,26 @@ import java.util.Date;
 public class Formation {
 	
 	/* Attributs */
-	private Date dateDebut; // peut être null si on considère une date de diplôme
-	private Date dateFin;
+	private String dateDebut; // peut être null si on considère une date de diplôme
+	private String dateFin;
 	private String etablissement;
 	private String intitule; // intitulé de la formation ou diplôme
 	
 	/* Getters et Setters */
 	
 	// dateDebut
-	public Date getDateDebut() {
+	public String getDateDebut() {
 		return dateDebut;
 	}
-	public void setDateDebut(Date dateDebut) {
+	public void setDateDebut(String dateDebut) {
 		this.dateDebut = dateDebut;
 	}
 	
 	// dateFin
-	public Date getDateFin() {
+	public String getDateFin() {
 		return dateFin;
 	}
-	public void setDateFin(Date dateFin) {
+	public void setDateFin(String dateFin) {
 		this.dateFin = dateFin;
 	}
 	
