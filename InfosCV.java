@@ -4,7 +4,6 @@
 package intergiciels.beans;
 
 import java.util.Collection;
-import java.util.Date;
 
 /**
  * @author Jade BOUMAZA
@@ -13,8 +12,8 @@ import java.util.Date;
 public class InfosCV {
 	
 	/* Attributs */
-	private int numTel;
-	private Date dateNaissance;
+	private String numTel;
+	private String dateNaissance;
 	private String adresse;
 	private Collection<DomaineCompetences> competences;
 	private Collection<Emploi> emplois;
@@ -25,18 +24,18 @@ public class InfosCV {
 	/* Setters et Getters */
 	
 	// numTel
-		public int getNumTel() {
+		public String getNumTel() {
 			return this.numTel;
 		}
-		public void setNumTel(int numTel) {
+		public void setNumTel(String numTel) {
 			this.numTel = numTel;
 		}
 		
 		// dateNaissance
-		public Date getDateNaissance() {
+		public String getDateNaissance() {
 			return this.dateNaissance;
 		}
-		public void setDateNaissance(Date dateNaissance) {
+		public void setDateNaissance(String dateNaissance) {
 			this.dateNaissance = dateNaissance;
 		}
 		
