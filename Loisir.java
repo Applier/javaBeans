@@ -4,7 +4,7 @@
 package intergiciels.beans;
 
 /**
- * @author Jade
+ * @author Jade BOUMAZA
  *
  */
 public class Loisir {
