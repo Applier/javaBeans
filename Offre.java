@@ -19,6 +19,7 @@ public class Offre {
 	private Date deadLine;
 	private String description;
 	private Collection<Tache> taches;
+	private Correspondance correspondance;
 	
 	/* Getters et Setters */
 	
@@ -68,6 +69,14 @@ public class Offre {
 	}
 	public void setTaches(Collection<Tache> taches) {
 		this.taches = taches;
+	}
+	
+	// correspondance
+	public Correspondance getCorrespondance() {
+		return correspondance;
+	}
+	public void setCorrespondance(Correspondance correspondance) {
+		this.correspondance = correspondance;
 	}
 	
 	/* Méthodes complémentaires sur la collection de tâches */
