@@ -3,6 +3,7 @@
  */
 package intergiciels.beans;
 
+import java.util.Collection;
 import java.util.Date;
 
 /**
@@ -17,6 +18,7 @@ public class Offre {
 	private String entreprise;
 	private Date deadLine;
 	private String description;
+	private Collection<Tache> taches;
 	
 	/* Getters et Setters */
 	
@@ -59,5 +61,31 @@ public class Offre {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
+	// taches
+	public Collection<Tache> getTaches() {
+		return taches;
+	}
+	public void setTaches(Collection<Tache> taches) {
+		this.taches = taches;
+	}
+	
+	/* Méthodes complémentaires sur la collection de tâches */
+	
+	// ajouter
+		
+	public void addTache(Tache tache) {
+		this.taches.add(tache);
+	}
+				
+	// supprimer
+	
+	public void removeTache(Tache tache) {
+		this.taches.remove(tache);
+	}
+	public void removeAllTaches() {
+		this.taches.clear();
+	}
+	
 	
 }
